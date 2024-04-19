@@ -17,7 +17,6 @@ public class Main {
             cart.addProduct(oversizedTee);
 
 
-            // Displaying the contents of the shopping cart
             cart.displayCart();
 
             // Calculating and displaying the total price
