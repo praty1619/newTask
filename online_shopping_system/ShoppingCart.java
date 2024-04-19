@@ -29,7 +29,7 @@ public class ShoppingCart {
             }
         }
         if (!found) {
-            throw new ProductNotFoundException("Product with ID " + id + " not found in the cart.");
+            throw new ProductNotFoundException("Product with ID " + id + " not found.");
         }
     }
 
